@@ -25,6 +25,7 @@ public abstract class MybatisConnect {
 	        //创建能执行映射文件中sql的sqlSession
 	        SqlSession session = sessionFactory.openSession();
 	        
+	        // mybatis需要重构
 	        return session;
 
 		}
